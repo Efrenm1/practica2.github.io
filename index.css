@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    max-width: 1500px;
+    
+    margin:auto;
+    font-family: Georgia, 'Times New Roman', Times; 
+    background-color: rgb(196, 211, 250);
+    
+}
+
+
+table{
+    
+    -webkit-flex:0;
+    -ms-flex:0;
+    flex:0;
+    padding:0px;
+    background-color: rgb(209, 255, 240);
+    font-family: monospace;
+    text-align: center;
+    font-size: 28px;
+}
+
+.fieldset{
+    padding:10px;
+    font-size:35px;
+   
+    font-family: monospace;
+}
+
+
+.Select{
+    width:260px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+@media (max-width: 600px){
+    .row{
+        -webkit-flex-direction:column;
+        flex-direction:column;
+    }
+}
+
+
